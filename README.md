@@ -1,3 +1,4 @@
+Ovládam komplecné čisla
 - 👋 Hi, I’m @Masx21
 - 👀 I’m interested in: calendar
 - 🌱 I’m currently learning: C
