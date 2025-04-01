@@ -834,7 +834,7 @@ int main()
     }
 
 
-
+    //TUNA
     int cislo=1;
     int max=0;
 
@@ -986,7 +986,7 @@ int main()
     printf("pocet opakovani %d \n", pocitadlo-1 );
     priemer = sucet / (pocitadlo-1);
     printf("priemer je %.2f\n",priemer);
-    */
+    //Nedokoncene
     int suma;
     int pocitadlo = 0;
     int medzisucet = 0;
@@ -999,14 +999,43 @@ int main()
         scanf(" %d",&zaplati);
         if printf("\n zadajte sumu splu\n");
     scanf(" %d",&suma);
-if{
-   }     pocitadlo++;
+    if{
+    }     pocitadlo++;
 
     }
     printf("pocet opakovani %d", pocitadlo );
 
 
 
+    int cislo=1;
+    printf("Zadaj cislo\n");
+    scanf(" %d",&cislo);
+    int min=cislo;
+    while (cislo>0 && 101>cislo)
+    {
+        printf("\n %d\n",cislo);
+        printf("Zadaj cislo\n");
+        scanf(" %d",&cislo);
+        if (cislo<min) min=cislo;
+        printf("\n najnizsie\n %d\n",min);
+    }
+
+    */
+    int pocitadlo=0;
+     int cislo=1;
+    printf("Zadaj cislo\n");
+    scanf(" %d",&cislo);
+    int min=cislo;
+    while (cislo>0 && 101>cislo)
+    {
+        printf("\n %d\n",cislo);
+        printf("Zadaj cislo\n");
+        scanf(" %d",&cislo);
+        if (cislo<min) min=cislo;
+        printf("\n najnizsie\n %d\n",min);
+         pocitadlo++;
+    }
+    printf("pocet opakovani %d\n", pocitadlo);
 
 
 
